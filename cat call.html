@@ -164,7 +164,7 @@
         if (!response.ok) throw new Error("The request failed.");
 
         const data = await response.json();
-        if (!data.fact) throw new Error("No furry cum back.");
+        if (!data.fact) throw new Error("No fact came back.");
 
         fact.textContent = data.fact;
       } catch (error) {
